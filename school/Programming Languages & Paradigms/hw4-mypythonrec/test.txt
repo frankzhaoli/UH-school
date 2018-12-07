@@ -1,0 +1,71 @@
+def f1(i)
+{
+   if i==1:
+      return 1
+   else:
+      return f1(i+1)
+}
+
+f1(5)
+
+def f2(i)
+{
+   if i==0:
+      return 1
+   else:
+      return f2(i)
+}
+
+f2(10)
+
+j=1
+def f3(i)
+{
+   if i<0:
+      j=2
+      return 1
+   else:
+      return f3(i-1)
+}
+
+f3(5)
+
+def f4(n)
+{
+   if n==0:
+      return 1
+   else:
+      return f3(n-1)+n
+}
+f4(5)
+
+l=5
+a=5
+def f5(a)
+{
+   if a==1:
+      l=6
+      print("asdf")
+      return 1
+   else:
+      return f5(a+1)
+}
+f5(a)
+
+a=5
+def f6()
+{
+   return f6()
+}
+f6()
+
+a=3
+z=5
+if 5==5:
+   if 3==3:
+      a=3
+
+if 1==1:
+else:
+   c=4
+z=5
