@@ -1,12 +1,4 @@
 -----
-PSID: 1478184
-Name: Zhao Li
-COSC ID: cosc2983
-
-PSID: 1670303
-Name:Christian Wilson
-COSC ID: cosc3005
------
 COMPILE: Makefile included: "make" without the quotation marks.
 -----
 RUN: "./mypython <testcase1.py" without the quotation marks.
