@@ -1,0 +1,6 @@
+if 6==6:
+   asdf=123
+   print(asdf)
+
+print(asdf)
+print(b)
